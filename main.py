@@ -19,7 +19,7 @@ Directory: /
 import xml.etree.ElementTree as ET
 
 # Načtení souboru
-tree = ET.parse("apple_health_export/export.xml")
+tree = ET.parse("data/export.xml")
 root = tree.getroot()
 
 # Prohlédnutí základní struktury
